@@ -1,3 +1,9 @@
 # 자바 ORM 표준 JPA 프로그래밍 - 책 예제
 
 ## 전체 프로젝트 다운로드 경로: [download](https://github.com/holyeye/jpabook/archive/master.zip)
+
+## 예제 코드 문제 해결
+
+### 데이터베이스 접속 문제
+
+- h2 데이터베이스를 실행한 다음에 웹브라우저에 `http://localhost:8082`를 입력해도 접속이 되지 않으면, localhost 대신에 127.0.0.1 IP를 직접 입력하세요. `http://127.0.0.1:8082`
